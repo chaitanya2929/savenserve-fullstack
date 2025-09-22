@@ -38,5 +38,5 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies and build
-        run: npm install && npx vite build # <-- Change this line
+        run: npm install && npx vite build
         working-directory: ./REACTJS/frontend
